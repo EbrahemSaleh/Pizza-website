@@ -1,0 +1,140 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* start navbar */
+.navbar-brand > span{
+    font-size: 40px;
+}
+.navbar-brand span:first-child{
+    color: rgb(143, 192, 192);
+    font-weight: bold;   
+}
+.navbar-brand span:last-child{
+    color:darkblue
+}
+.navbar-nav .nav-link{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color:  rgb(143, 192, 192) !important;
+    font-weight:700 ;
+}
+
+
+
+
+/* end navbar */
+
+/* start  slidebar */
+.slidebar .carousel-inner{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+ 
+}
+
+.slidebar .carousel-inner h1{
+    position: absolute;
+    color: white;
+    z-index: 3;
+    font-size: 60px;
+    max-width: 900px;
+    line-height: 1.4;
+    margin-right: 100px;
+    left: 100px;
+
+}
+
+.itall{
+    color: rgb(143, 192, 192);
+}
+.slidebar .carousel-inner .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    background-color: rgba(7, 7, 7,0.6);
+    z-index: 2;
+}
+
+@media (max-width : 575px){
+    .slidebar .carousel-inner h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width : 375px){
+    .slidebar .carousel-inner h1{
+        font-size: 25px;
+    }
+}
+
+@media (max-width : 340px) {
+    .slidebar .carousel-inner h1 {
+        font-size: 23px;
+    }
+}
+/* end slidebar */
+
+
+/* start section */
+
+.colls {
+    margin-top: 80px;
+    background-color: white !important;
+    text-align: center;
+}
+
+.fas {
+    color:rgb(143, 192, 192);
+    font-size: 60px;
+}
+
+/* end section */
+
+/* start overview */
+.overview{
+    margin-top: 70px;
+    
+}
+
+/* end overview */
+
+
+
+/* start garllall */
+.gallaer {
+    margin-top: 70px;  
+    /* width: 99%; */
+}
+
+.gallaer .row img {
+    width: 100%;
+    
+}
+
+.col-sm{
+    padding: 0 !important;
+}
+
+/* end garllall */
+/* start  comments */
+.order{
+    margin-top: 60px;
+}
+
+/* end  comments */
+
+/* start copyright */
+.copyright{
+    margin-top: 50px;
+    padding: 30px;
+}
+.copyright .row .fab{
+    padding-left: 20px;
+}
+
+/* end copyright */
